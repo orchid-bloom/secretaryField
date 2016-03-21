@@ -15,7 +15,7 @@
 		B690E1051C9FD4C0007D00E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B690E1031C9FD4C0007D00E1 /* LaunchScreen.storyboard */; };
 		B690E1101C9FD4C0007D00E1 /* iOS______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B690E10F1C9FD4C0007D00E1 /* iOS______Tests.m */; };
 		B690E11B1C9FD4C0007D00E1 /* iOS______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B690E11A1C9FD4C0007D00E1 /* iOS______UITests.m */; };
-		B690E12F1C9FD59E007D00E1 /* BYSecretaryField.m in Sources */ = {isa = PBXBuildFile; fileRef = B690E12A1C9FD59E007D00E1 /* BYSecretaryField.m */; };
+		B690E12F1C9FD59E007D00E1 /* TXSecretaryField.m in Sources */ = {isa = PBXBuildFile; fileRef = B690E12A1C9FD59E007D00E1 /* TXSecretaryField.m */; };
 		B690E1301C9FD59E007D00E1 /* member_center_key@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B690E12B1C9FD59E007D00E1 /* member_center_key@2x.png */; };
 		B690E1311C9FD59E007D00E1 /* member_center_key_secrentary_dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B690E12C1C9FD59E007D00E1 /* member_center_key_secrentary_dot@2x.png */; };
 		B690E1321C9FD59E007D00E1 /* member_center_key_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B690E12D1C9FD59E007D00E1 /* member_center_key_selected@2x.png */; };
@@ -56,8 +56,8 @@
 		B690E1161C9FD4C0007D00E1 /* iOS 密码输入框UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 密码输入框UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B690E11A1C9FD4C0007D00E1 /* iOS______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS______UITests.m"; sourceTree = "<group>"; };
 		B690E11C1C9FD4C0007D00E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B690E1291C9FD59E007D00E1 /* BYSecretaryField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYSecretaryField.h; sourceTree = "<group>"; };
-		B690E12A1C9FD59E007D00E1 /* BYSecretaryField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYSecretaryField.m; sourceTree = "<group>"; };
+		B690E1291C9FD59E007D00E1 /* TXSecretaryField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSecretaryField.h; sourceTree = "<group>"; };
+		B690E12A1C9FD59E007D00E1 /* TXSecretaryField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSecretaryField.m; sourceTree = "<group>"; };
 		B690E12B1C9FD59E007D00E1 /* member_center_key@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "member_center_key@2x.png"; sourceTree = "<group>"; };
 		B690E12C1C9FD59E007D00E1 /* member_center_key_secrentary_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "member_center_key_secrentary_dot@2x.png"; sourceTree = "<group>"; };
 		B690E12D1C9FD59E007D00E1 /* member_center_key_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "member_center_key_selected@2x.png"; sourceTree = "<group>"; };
@@ -155,8 +155,8 @@
 		B690E1281C9FD59E007D00E1 /* BYSecretaryField */ = {
 			isa = PBXGroup;
 			children = (
-				B690E1291C9FD59E007D00E1 /* BYSecretaryField.h */,
-				B690E12A1C9FD59E007D00E1 /* BYSecretaryField.m */,
+				B690E1291C9FD59E007D00E1 /* TXSecretaryField.h */,
+				B690E12A1C9FD59E007D00E1 /* TXSecretaryField.m */,
 				B690E12B1C9FD59E007D00E1 /* member_center_key@2x.png */,
 				B690E12C1C9FD59E007D00E1 /* member_center_key_secrentary_dot@2x.png */,
 				B690E12D1C9FD59E007D00E1 /* member_center_key_selected@2x.png */,
@@ -304,7 +304,7 @@
 			files = (
 				B690E0FD1C9FD4C0007D00E1 /* ViewController.m in Sources */,
 				B690E0FA1C9FD4C0007D00E1 /* AppDelegate.m in Sources */,
-				B690E12F1C9FD59E007D00E1 /* BYSecretaryField.m in Sources */,
+				B690E12F1C9FD59E007D00E1 /* TXSecretaryField.m in Sources */,
 				B690E0F71C9FD4C0007D00E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +531,7 @@
 				B690E1211C9FD4C0007D00E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B690E1221C9FD4C0007D00E1 /* Build configuration list for PBXNativeTarget "iOS 密码输入框Tests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +540,7 @@
 				B690E1241C9FD4C0007D00E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B690E1251C9FD4C0007D00E1 /* Build configuration list for PBXNativeTarget "iOS 密码输入框UITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +549,7 @@
 				B690E1271C9FD4C0007D00E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,13 +2,13 @@
 //  BYSecretaryField.m
 //  GroupBuyUserAPP
 //
-//  Created by hanJianXin on 15-1-26.
-//  Copyright (c) 2015年 陕西百益软件有限公司. All rights reserved.
+//  Created by tianXin on 16/3/21.
+//  Copyright © 2016年 tianXin. All rights reserved.
 //
 
-#import "BYSecretaryField.h"
+#import "TXSecretaryField.h"
 
-@interface BYSecretaryField (){
+@interface TXSecretaryField (){
     UIImage *_forcusImage;
     UIImage *_normalImage;
     UIImage *_dotImage;
@@ -16,7 +16,7 @@
 @end
 
 
-@implementation BYSecretaryField
+@implementation TXSecretaryField
 
 - (id)initWithFrame:(CGRect)frame
 {

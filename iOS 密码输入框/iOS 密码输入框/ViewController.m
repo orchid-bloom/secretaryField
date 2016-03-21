@@ -7,11 +7,11 @@
 //
 
 #import "ViewController.h"
-#import "BYSecretaryField.h"
+#import "TXSecretaryField.h"
 
-@interface ViewController ()<BYSecretaryFieldDelegate>
+@interface ViewController ()<TXSecretaryFieldDelegate>
 {
-    BYSecretaryField *_passWord;
+    TXSecretaryField *_passWord;
 
 }
 @end
@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //输入框
-    _passWord = [[BYSecretaryField alloc] initWithFrame:CGRectMake(20, 20*3, self.view.bounds.size.width - 40, 40)];
+    _passWord = [[TXSecretaryField alloc] initWithFrame:CGRectMake(20, 20*3, self.view.bounds.size.width - 40, 40)];
     _passWord.secureTextEntry = YES;
     [_passWord becomeFirstResponder];
     _passWord.keyboardType = UIKeyboardTypeNumberPad;
@@ -33,7 +33,7 @@
 }
 
 
--(void)sectetaryDidFinishedInput:(BYSecretaryField *)secField{
+-(void)sectetaryDidFinishedInput:(TXSecretaryField *)secField{
     if (secField.text.length == 6) {
         [secField resignFirstResponder];
     }
