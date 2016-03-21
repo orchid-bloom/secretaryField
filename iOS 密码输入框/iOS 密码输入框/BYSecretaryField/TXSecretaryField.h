@@ -1,5 +1,5 @@
 //
-//  BYSecretaryField.h
+//  TXSecretaryField.h
 //  GroupBuyUserAPP
 //
 //  Created by tianXin on 16/3/21.

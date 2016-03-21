@@ -1,5 +1,5 @@
 //
-//  BYSecretaryField.m
+//  TXSecretaryField.m
 //  GroupBuyUserAPP
 //
 //  Created by tianXin on 16/3/21.
